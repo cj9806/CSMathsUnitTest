@@ -27,12 +27,8 @@ namespace MathClasses
         public static Matrix3 operator *(Matrix3 L, Matrix3 R)
         {
             return new Matrix3(
-                L.m1 * R.m1 + L.m4 * R.m2 + L.m7 * R.m3,
-                L.m2 * R.m1 + L.m5 * R.m2 + L.m8 * R.m3, 
-                L.m3 * R.m1 + L.m6 * R.m2 + L.m9 * R.m3,
-
-                L.m1 * R.m4 + L.m4 * R.m5 + L.m7 * R.m6,
-                L.m2 * R.m4 + L.m5 * R.m5 + L.m8 * R.m6, L.m3 * R.m4 + L.m6 * R.m5 + L.m9 * R.m6,
+                L.m1 * R.m1 + L.m4 * R.m2 + L.m7 * R.m3, L.m2 * R.m1 + L.m5 * R.m2 + L.m8 * R.m3, L.m3 * R.m1 + L.m6 * R.m2 + L.m9 * R.m3,
+                L.m1 * R.m4 + L.m4 * R.m5 + L.m7 * R.m6, L.m2 * R.m4 + L.m5 * R.m5 + L.m8 * R.m6, L.m3 * R.m4 + L.m6 * R.m5 + L.m9 * R.m6,
                 L.m1 * R.m7 + L.m4 * R.m8 + L.m7 * R.m9, L.m2 * R.m7 + L.m5 * R.m8 + L.m8 * R.m9, L.m3 * R.m7 + L.m6 * R.m8 + L.m9 * R.m9);
         }
         public static Vector3 operator *(Matrix3 L, Vector3 R)

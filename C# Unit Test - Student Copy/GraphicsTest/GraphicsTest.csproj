@@ -13,4 +13,28 @@
     <ProjectReference Include="..\MathClasses\MathClasses.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="topdowntanks\PNG\Bullets\bulletYellowSilver.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="topdowntanks\PNG\Obstacles\barrelRed_side.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="topdowntanks\PNG\Tanks\barrelGreen.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="topdowntanks\PNG\Tanks\barrelRed.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="topdowntanks\PNG\Tanks\tankGreen.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="topdowntanks\PNG\Tanks\tankRed.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="topdowntanks\PNG\Tanks\tracksSmall.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>

@@ -54,7 +54,7 @@ namespace MathClasses
         }
         public byte GetAlpha()
         {
-            return (byte)(colour & 0x000000
+            return (byte)(colour & 0x0000ff
                 );
         }
     }
